@@ -1,0 +1,20 @@
+# Virtual environment (machine-specific; rebuilt from pyproject.toml)
+.venv/
+
+# Python bytecode caches
+__pycache__/
+*.pyc
+
+# Build / editable-install metadata
+*.egg-info/
+build/
+dist/
+
+# Secrets: API keys live here, never commit it (.env.example is committed instead)
+.env
+
+# Real run outputs (only curated runs go in demo_runs/)
+runs/
+
+# Tool caches
+.pytest_cache/
