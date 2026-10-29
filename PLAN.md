@@ -5,7 +5,7 @@ Repo: https://github.com/shrutisharma22066/AgentEval (pushed after every finishe
 A step-by-step map of everything we're building. Finished steps end with ✅.
 When you come back: scroll to the first step **without** a ✅. That's where we are.
 
-> **Current step:** M0 → 2.1 (create `pyproject.toml`)
+> **Current step:** M0 → 3.3 (activate the venv), then 3.4 `pip install -e .`
 
 ---
 
@@ -21,8 +21,8 @@ Goal: `python -c "import agenteval"` works from anywhere.
 - 1.6 Verify the venv: `.venv\Scripts\python.exe --version` prints Python 3.14
 
 **Chunk 2: `pyproject.toml`**
-- 2.1 Create `pyproject.toml` in the project root
-- 2.2 Understand each section: `[build-system]`, `[project]`, `[tool.setuptools...]`
+- 2.1 Create `pyproject.toml` in the project root ✅
+- 2.2 Understand each section: `[build-system]`, `[project]`, `[tool.setuptools...]` ✅
 
 **Chunk 3: `.gitignore` + git + editable install**
 - 3.1 Create `.gitignore` (ignore `.venv/`, `__pycache__/`, `.env`, `runs/`, etc.) ✅
