@@ -5,7 +5,7 @@ Repo: https://github.com/shrutisharma22066/AgentEval (pushed after every finishe
 A step-by-step map of everything we're building. Finished steps end with ✅.
 When you come back: scroll to the first step **without** a ✅. That's where we are.
 
-> **Current step:** M0 → 3.2a (create the GitHub repo), then 2.1 (`pyproject.toml`)
+> **Current step:** M0 → 2.1 (create `pyproject.toml`)
 
 ---
 
@@ -27,8 +27,8 @@ Goal: `python -c "import agenteval"` works from anywhere.
 **Chunk 3: `.gitignore` + git + editable install**
 - 3.1 Create `.gitignore` (ignore `.venv/`, `__pycache__/`, `.env`, `runs/`, etc.) ✅
 - 3.2 `git init` + first commit ✅
-- 3.2a Create the empty GitHub repo `shrutisharma22066/AgentEval` (you, on github.com)
-- 3.2b Connect the remote and push (`git remote add origin ...`, `git push -u origin main`)
+- 3.2a Install `gh`, log in, create the GitHub repo `shrutisharma22066/AgentEval` ✅
+- 3.2b Connect the remote and push (`git remote add origin ...`, `git push -u origin main`) ✅
 - 3.3 Activate the venv (`.\.venv\Scripts\Activate.ps1`)
 - 3.4 `pip install -e .` (editable install)
 - 3.5 Done check: `python -c "import agenteval"` runs with no error
