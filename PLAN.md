@@ -5,11 +5,11 @@ Repo: https://github.com/shrutisharma22066/AgentEval (pushed after every finishe
 A step-by-step map of everything we're building. Finished steps end with ✅.
 When you come back: scroll to the first step **without** a ✅. That's where we are.
 
-> **Current step:** M0 → 3.3 (activate the venv), then 3.4 `pip install -e .`
+> **Current step:** M1 → write the SQL schema in `agenteval/env/db.py`
 
 ---
 
-## M0. Setup (make an empty, installable Python project)
+## M0. Setup (make an empty, installable Python project) ✅ DONE
 Goal: `python -c "import agenteval"` works from anywhere.
 
 **Chunk 1: folders + virtual environment**
@@ -18,7 +18,7 @@ Goal: `python -c "import agenteval"` works from anywhere.
 - 1.3 Add empty `__init__.py` to both package folders ✅
 - 1.4 Create data/test folders `tasks\` and `tests\` (no `__init__.py`) ✅
 - 1.5 Create virtual environment `.venv\` with `python -m venv .venv` ✅
-- 1.6 Verify the venv: `.venv\Scripts\python.exe --version` prints Python 3.14
+- 1.6 Verify the venv: `.venv\Scripts\python.exe --version` prints Python 3.14 ✅
 
 **Chunk 2: `pyproject.toml`**
 - 2.1 Create `pyproject.toml` in the project root ✅
@@ -29,12 +29,12 @@ Goal: `python -c "import agenteval"` works from anywhere.
 - 3.2 `git init` + first commit ✅
 - 3.2a Install `gh`, log in, create the GitHub repo `shrutisharma22066/AgentEval` ✅
 - 3.2b Connect the remote and push (`git remote add origin ...`, `git push -u origin main`) ✅
-- 3.3 Activate the venv (`.\.venv\Scripts\Activate.ps1`)
-- 3.4 `pip install -e .` (editable install)
-- 3.5 Done check: `python -c "import agenteval"` runs with no error
-- 3.6 2 interview questions on M0
-- 3.7 Create `PROGRESS.md` (what we learned, weak spots, next step)
-- 3.8 Commit + push to GitHub
+- 3.3 Activate the venv (`.\.venv\Scripts\Activate.ps1`) ✅
+- 3.4 `pip install -e .` (editable install) ✅
+- 3.5 Done check: `python -c "import agenteval"` runs with no error ✅
+- 3.6 2 interview questions on M0 ✅
+- 3.7 Create `PROGRESS.md` (what we learned, weak spots, next step) ✅
+- 3.8 Commit + push to GitHub ✅
 
 ---
 
